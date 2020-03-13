@@ -1,0 +1,28 @@
+.button {
+	background-color: #5A5A70;
+	border: none;
+	color: white;
+	padding: 0.2vw 2.3vw;
+
+	text-align: center;
+	font-size: 1.4vw;
+
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #9595AA;
+}
+
+body{
+	background-color: lightgrey;
+	margin:0px;
+}
+
+
+.nav{
+	border-style:solid;
+	border-color: #7A7999;
+	border-width: .4vw;
+	background-color: #7A7999;
+}
