@@ -4,48 +4,34 @@ body{
 }
 
 .button{
-	background-color: #5A5A70;
 	border: none;
 	color: white;
-	padding: 0.2vw 2.3vw;
+	padding: 0.2vmin 2.3vmin;
 
 	text-align: center;
-	font-size: 1.4vw;
-
 	cursor: pointer;
 }
 
 .button:hover{
 	background-color: #9595AA;
 }
-
+/*accidentally discovered bug which makes it look better using vmax and vmin on different buttons*/
 .buttonselect{
-	background-color: #808099;
-	background-color: #4F4F63;
 	border: none;
 	color: white;
-	padding: 0.2vw 2.3vw;
-
+	padding: 0.2vmax 2.3vmax;
 	text-align: center;
-	font-size: 1.4vw;
-
 }
 
 .nav{
 	border-style:solid;
 	border-color: #7A7999;
-	border-width: .4vw;
+	border-width: .4vmax;
 	background-color: #7A7999;
 }
 
 .center{
-	text-align:center;
-	font-size:3vw;
-}
-
-.tint{
-	background-color:#9595AA;
-	padding: 2vw;
+	text-align:center
 }
 
 .qrimage{
@@ -53,4 +39,94 @@ body{
 	width:35%;
 	height:auto;
 	margin:auto;
+}
+
+/*font types*/
+.normalfont{
+	font-size:1.4vw;
+}
+
+.bigfont{
+	font-size:2vw;
+}
+
+.thiccfont{
+	font-size:3vmax;
+}
+
+
+.banner{
+	background-color:#9595AA;
+	padding:0.8vmax;
+}
+
+/*colors*/
+.dark{
+	background-color:#4F4F63;
+}
+.light{
+	background-color:#5A5A70;
+}
+.lighter{
+	color:#7A7999;
+	background-color:#7A7999;
+}
+
+.grey{
+	background-color:#4F4F63;
+}
+
+.indent{
+	margin-left:15vmin;
+	margin-right:15vmin;
+}
+/*askes styles*/
+
+.brødtekst-info{
+	text-align:center;
+	text-align:justify;
+	font-size:25px;
+	hyphens:auto;
+}
+
+
+#covid-19-billede{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:75%;
+}
+
+.picture-property-info{
+	font-size:medium;
+	opacity:50%;
+}
+
+
+
+
+.hvad-kan-gøres{
+	font-size:40px;
+}
+
+.brødtekst-gøres{
+	text-align:center;
+	text-align:justify;
+
+	font-size:25px;
+	hyphens:auto;
+}
+
+
+.video-tekst{
+	font-size:25px;
+	hyphens:auto;
+}
+
+#video{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	height:50%;
 }
