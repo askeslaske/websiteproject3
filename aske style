@@ -1,0 +1,122 @@
+body{
+	background-color: lightgrey;
+	margin:0px;
+}
+
+.button{
+	background-color: #5A5A70;
+	border: none;
+	color: white;
+	padding: 0.2vw 2.3vw;
+
+	text-align: center;
+	font-size: 1.4vw;
+
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #9595AA;
+}
+
+.buttonselect{
+	background-color: #808099;
+	border: none;
+	color: white;
+	padding: 0.2vw 2.3vw;
+
+	text-align: center;
+	font-size: 1.4vw;
+
+}
+
+.nav{
+	border-style:solid;
+	border-color: #7A7999;
+	border-width: .4vw;
+	background-color: #7A7999;
+}
+
+.qrimage{
+	display:block;
+	width:35%;
+	height:auto;
+	margin:auto;
+}
+
+.center{
+	text-align:center;
+}
+
+
+/*askes styles*/
+
+.overskrift-info{
+	text-align:center;
+	font-size:54px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.brødtekst-info{
+	text-align:center;
+	margin-left:180px;
+	margin-right:180px;
+	text-align:justify;
+
+	font-size:25px;
+	hyphens:auto;
+}
+
+
+#covid-19-billede{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:75%;
+}
+
+.picture-property-info{
+	font-size:medium;
+	margin-left:180px;
+	opacity:50%;
+}
+
+.hvad-corona{
+	margin-left:180px;
+	font-size:40px;
+}
+
+
+
+.hvad-kan-gøres{
+	margin-left:180px;
+	font-size:40px;
+}
+
+.brødtekst-gøres{
+	text-align:center;
+	margin-left:180px;
+	margin-right:180px;
+	text-align:justify;
+
+	font-size:25px;
+	hyphens:auto;
+}
+
+
+.video-tekst{
+	margin-left:180px;
+	margin-right:180px;
+
+	font-size:25px;
+	hyphens:auto;
+}
+
+#video{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	height:50%;
+}
