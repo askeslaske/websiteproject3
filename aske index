@@ -1,0 +1,30 @@
+<! DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<title> Website for informatik </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+
+<div class=nav>
+	<a href="index.html"><button class="buttonselect">Home</button></a>
+	<a href="info.html"><button class="button">Information</button></a>
+	<a href="about.html"><button class="button">About Us</button></a>
+	<a href="donate.html"><button class="button">Donate</button></a>
+	
+</div>
+
+<!-- write whatever stuff this page needs after this!-->
+
+<h1>
+	
+this is the homepage
+</h1>
+<h1>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus odio, ultrices sit amet metus ut, tempus interdum dui. Nam eget lobortis velit. Aliquam nec gravida felis. Nulla at fermentum neque. Integer scelerisque sodales sem, non posuere risus maximus luctus. Quisque suscipit vel velit vitae maximus. Maecenas ultrices mattis tortor non pulvinar. Cras nisl ex, mattis a tortor sit amet, rutrum cursus sem. Ut luctus, dui a viverra gravida, dui dolor consequat neque, at sagittis ligula nibh in ipsum. Nunc eu lacinia massa, ut imperdiet mauris. In nec massa consectetur, rhoncus ex ullamcorper, semper enim. Pellentesque eu ligula at sapien rutrum scelerisque quis vel eros. 
+</h1>
+
+
+</body>
